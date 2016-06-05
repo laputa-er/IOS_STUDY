@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		719FB4581CF749DB00000CAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 719FB4571CF749DB00000CAD /* main.m */; };
+		719FB45B1CF749DB00000CAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 719FB45A1CF749DB00000CAD /* AppDelegate.m */; };
+		719FB45E1CF749DB00000CAD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 719FB45D1CF749DB00000CAD /* ViewController.m */; };
+		719FB4611CF749DB00000CAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 719FB45F1CF749DB00000CAD /* Main.storyboard */; };
+		719FB4631CF749DB00000CAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 719FB4621CF749DB00000CAD /* Assets.xcassets */; };
+		719FB4661CF749DB00000CAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 719FB4641CF749DB00000CAD /* LaunchScreen.storyboard */; };
+		719FB46F1CF8685500000CAD /* StudentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 719FB46E1CF8685500000CAD /* StudentModel.m */; };
+		719FB4731CF86C2C00000CAD /* InfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 719FB4721CF86C2C00000CAD /* InfoModel.m */; };
+		719FB4761CF86C6200000CAD /* StoreValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 719FB4751CF86C6200000CAD /* StoreValue.m */; };
+		719FB47A1CF86D4700000CAD /* FastCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 719FB4791CF86D4700000CAD /* FastCoder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		719FB47E1CF8704B00000CAD /* NSObject+StoreValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 719FB47D1CF8704B00000CAD /* NSObject+StoreValue.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		719FB4531CF749DB00000CAD /* L1003_优化本地存储.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "L1003_优化本地存储.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		719FB4571CF749DB00000CAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		719FB4591CF749DB00000CAD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		719FB45A1CF749DB00000CAD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		719FB45C1CF749DB00000CAD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		719FB45D1CF749DB00000CAD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		719FB4601CF749DB00000CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		719FB4621CF749DB00000CAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		719FB4651CF749DB00000CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		719FB4671CF749DB00000CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		719FB46D1CF8685500000CAD /* StudentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentModel.h; sourceTree = "<group>"; };
+		719FB46E1CF8685500000CAD /* StudentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentModel.m; sourceTree = "<group>"; };
+		719FB4711CF86C2C00000CAD /* InfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoModel.h; sourceTree = "<group>"; };
+		719FB4721CF86C2C00000CAD /* InfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoModel.m; sourceTree = "<group>"; };
+		719FB4741CF86C6200000CAD /* StoreValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreValue.h; sourceTree = "<group>"; };
+		719FB4751CF86C6200000CAD /* StoreValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoreValue.m; sourceTree = "<group>"; };
+		719FB4781CF86D4700000CAD /* FastCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FastCoder.h; sourceTree = "<group>"; };
+		719FB4791CF86D4700000CAD /* FastCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FastCoder.m; sourceTree = "<group>"; };
+		719FB47C1CF8704B00000CAD /* NSObject+StoreValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+StoreValue.h"; sourceTree = "<group>"; };
+		719FB47D1CF8704B00000CAD /* NSObject+StoreValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+StoreValue.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		719FB4501CF749DB00000CAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		719FB44A1CF749DB00000CAD = {
+			isa = PBXGroup;
+			children = (
+				719FB4551CF749DB00000CAD /* L1003_优化本地存储 */,
+				719FB4541CF749DB00000CAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		719FB4541CF749DB00000CAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				719FB4531CF749DB00000CAD /* L1003_优化本地存储.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		719FB4551CF749DB00000CAD /* L1003_优化本地存储 */ = {
+			isa = PBXGroup;
+			children = (
+				719FB47B1CF8702800000CAD /* Category */,
+				719FB4771CF86D1700000CAD /* FastCoder */,
+				719FB4701CF8685C00000CAD /* Model */,
+				719FB4591CF749DB00000CAD /* AppDelegate.h */,
+				719FB45A1CF749DB00000CAD /* AppDelegate.m */,
+				719FB45C1CF749DB00000CAD /* ViewController.h */,
+				719FB45D1CF749DB00000CAD /* ViewController.m */,
+				719FB45F1CF749DB00000CAD /* Main.storyboard */,
+				719FB4621CF749DB00000CAD /* Assets.xcassets */,
+				719FB4641CF749DB00000CAD /* LaunchScreen.storyboard */,
+				719FB4671CF749DB00000CAD /* Info.plist */,
+				719FB4561CF749DB00000CAD /* Supporting Files */,
+				719FB4741CF86C6200000CAD /* StoreValue.h */,
+				719FB4751CF86C6200000CAD /* StoreValue.m */,
+			);
+			path = "L1003_优化本地存储";
+			sourceTree = "<group>";
+		};
+		719FB4561CF749DB00000CAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				719FB4571CF749DB00000CAD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		719FB4701CF8685C00000CAD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				719FB46D1CF8685500000CAD /* StudentModel.h */,
+				719FB46E1CF8685500000CAD /* StudentModel.m */,
+				719FB4711CF86C2C00000CAD /* InfoModel.h */,
+				719FB4721CF86C2C00000CAD /* InfoModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		719FB4771CF86D1700000CAD /* FastCoder */ = {
+			isa = PBXGroup;
+			children = (
+				719FB4781CF86D4700000CAD /* FastCoder.h */,
+				719FB4791CF86D4700000CAD /* FastCoder.m */,
+			);
+			name = FastCoder;
+			sourceTree = "<group>";
+		};
+		719FB47B1CF8702800000CAD /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				719FB47C1CF8704B00000CAD /* NSObject+StoreValue.h */,
+				719FB47D1CF8704B00000CAD /* NSObject+StoreValue.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		719FB4521CF749DB00000CAD /* L1003_优化本地存储 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 719FB46A1CF749DB00000CAD /* Build configuration list for PBXNativeTarget "L1003_优化本地存储" */;
+			buildPhases = (
+				719FB44F1CF749DB00000CAD /* Sources */,
+				719FB4501CF749DB00000CAD /* Frameworks */,
+				719FB4511CF749DB00000CAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "L1003_优化本地存储";
+			productName = "L1003_优化本地存储";
+			productReference = 719FB4531CF749DB00000CAD /* L1003_优化本地存储.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		719FB44B1CF749DB00000CAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = TonyEarth;
+				TargetAttributes = {
+					719FB4521CF749DB00000CAD = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = E355287BUN;
+					};
+				};
+			};
+			buildConfigurationList = 719FB44E1CF749DB00000CAD /* Build configuration list for PBXProject "L1003_优化本地存储" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 719FB44A1CF749DB00000CAD;
+			productRefGroup = 719FB4541CF749DB00000CAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				719FB4521CF749DB00000CAD /* L1003_优化本地存储 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		719FB4511CF749DB00000CAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				719FB4661CF749DB00000CAD /* LaunchScreen.storyboard in Resources */,
+				719FB4631CF749DB00000CAD /* Assets.xcassets in Resources */,
+				719FB4611CF749DB00000CAD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		719FB44F1CF749DB00000CAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				719FB45E1CF749DB00000CAD /* ViewController.m in Sources */,
+				719FB4731CF86C2C00000CAD /* InfoModel.m in Sources */,
+				719FB47A1CF86D4700000CAD /* FastCoder.m in Sources */,
+				719FB46F1CF8685500000CAD /* StudentModel.m in Sources */,
+				719FB4761CF86C6200000CAD /* StoreValue.m in Sources */,
+				719FB47E1CF8704B00000CAD /* NSObject+StoreValue.m in Sources */,
+				719FB45B1CF749DB00000CAD /* AppDelegate.m in Sources */,
+				719FB4581CF749DB00000CAD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		719FB45F1CF749DB00000CAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				719FB4601CF749DB00000CAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		719FB4641CF749DB00000CAD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				719FB4651CF749DB00000CAD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		719FB4681CF749DB00000CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		719FB4691CF749DB00000CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		719FB46B1CF749DB00000CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "L1003_优化本地存储/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.earth.L1003-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		719FB46C1CF749DB00000CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "L1003_优化本地存储/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.earth.L1003-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		719FB44E1CF749DB00000CAD /* Build configuration list for PBXProject "L1003_优化本地存储" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				719FB4681CF749DB00000CAD /* Debug */,
+				719FB4691CF749DB00000CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		719FB46A1CF749DB00000CAD /* Build configuration list for PBXNativeTarget "L1003_优化本地存储" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				719FB46B1CF749DB00000CAD /* Debug */,
+				719FB46C1CF749DB00000CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 719FB44B1CF749DB00000CAD /* Project object */;
+}

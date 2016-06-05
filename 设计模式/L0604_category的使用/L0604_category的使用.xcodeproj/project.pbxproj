@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		719FB2871CEB68D100000CAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 719FB2861CEB68D100000CAD /* main.m */; };
+		719FB28A1CEB68D100000CAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 719FB2891CEB68D100000CAD /* AppDelegate.m */; };
+		719FB28D1CEB68D100000CAD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 719FB28C1CEB68D100000CAD /* ViewController.m */; };
+		719FB2901CEB68D100000CAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 719FB28E1CEB68D100000CAD /* Main.storyboard */; };
+		719FB2921CEB68D100000CAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 719FB2911CEB68D100000CAD /* Assets.xcassets */; };
+		719FB2951CEB68D100000CAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 719FB2931CEB68D100000CAD /* LaunchScreen.storyboard */; };
+		719FB29F1CEB691100000CAD /* GamePad.m in Sources */ = {isa = PBXBuildFile; fileRef = 719FB29E1CEB691100000CAD /* GamePad.m */; };
+		719FB2A21CEB695100000CAD /* GamePad+Coin.m in Sources */ = {isa = PBXBuildFile; fileRef = 719FB2A11CEB695100000CAD /* GamePad+Coin.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		719FB2821CEB68D100000CAD /* L0604_category的使用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "L0604_category的使用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		719FB2861CEB68D100000CAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		719FB2881CEB68D100000CAD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		719FB2891CEB68D100000CAD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		719FB28B1CEB68D100000CAD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		719FB28C1CEB68D100000CAD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		719FB28F1CEB68D100000CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		719FB2911CEB68D100000CAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		719FB2941CEB68D100000CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		719FB2961CEB68D100000CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		719FB29D1CEB691100000CAD /* GamePad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamePad.h; sourceTree = "<group>"; };
+		719FB29E1CEB691100000CAD /* GamePad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamePad.m; sourceTree = "<group>"; };
+		719FB2A01CEB695100000CAD /* GamePad+Coin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GamePad+Coin.h"; sourceTree = "<group>"; };
+		719FB2A11CEB695100000CAD /* GamePad+Coin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GamePad+Coin.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		719FB27F1CEB68D100000CAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		719FB2791CEB68D100000CAD = {
+			isa = PBXGroup;
+			children = (
+				719FB2841CEB68D100000CAD /* L0604_category的使用 */,
+				719FB2831CEB68D100000CAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		719FB2831CEB68D100000CAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				719FB2821CEB68D100000CAD /* L0604_category的使用.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		719FB2841CEB68D100000CAD /* L0604_category的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				719FB29C1CEB68F800000CAD /* GamePlay */,
+				719FB2881CEB68D100000CAD /* AppDelegate.h */,
+				719FB2891CEB68D100000CAD /* AppDelegate.m */,
+				719FB28B1CEB68D100000CAD /* ViewController.h */,
+				719FB28C1CEB68D100000CAD /* ViewController.m */,
+				719FB28E1CEB68D100000CAD /* Main.storyboard */,
+				719FB2911CEB68D100000CAD /* Assets.xcassets */,
+				719FB2931CEB68D100000CAD /* LaunchScreen.storyboard */,
+				719FB2961CEB68D100000CAD /* Info.plist */,
+				719FB2851CEB68D100000CAD /* Supporting Files */,
+			);
+			path = "L0604_category的使用";
+			sourceTree = "<group>";
+		};
+		719FB2851CEB68D100000CAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				719FB2861CEB68D100000CAD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		719FB29C1CEB68F800000CAD /* GamePlay */ = {
+			isa = PBXGroup;
+			children = (
+				719FB29D1CEB691100000CAD /* GamePad.h */,
+				719FB29E1CEB691100000CAD /* GamePad.m */,
+				719FB2A01CEB695100000CAD /* GamePad+Coin.h */,
+				719FB2A11CEB695100000CAD /* GamePad+Coin.m */,
+			);
+			name = GamePlay;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		719FB2811CEB68D100000CAD /* L0604_category的使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 719FB2991CEB68D100000CAD /* Build configuration list for PBXNativeTarget "L0604_category的使用" */;
+			buildPhases = (
+				719FB27E1CEB68D100000CAD /* Sources */,
+				719FB27F1CEB68D100000CAD /* Frameworks */,
+				719FB2801CEB68D100000CAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "L0604_category的使用";
+			productName = "L0604_category的使用";
+			productReference = 719FB2821CEB68D100000CAD /* L0604_category的使用.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		719FB27A1CEB68D100000CAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = TonyEarth;
+				TargetAttributes = {
+					719FB2811CEB68D100000CAD = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = E355287BUN;
+					};
+				};
+			};
+			buildConfigurationList = 719FB27D1CEB68D100000CAD /* Build configuration list for PBXProject "L0604_category的使用" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 719FB2791CEB68D100000CAD;
+			productRefGroup = 719FB2831CEB68D100000CAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				719FB2811CEB68D100000CAD /* L0604_category的使用 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		719FB2801CEB68D100000CAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				719FB2951CEB68D100000CAD /* LaunchScreen.storyboard in Resources */,
+				719FB2921CEB68D100000CAD /* Assets.xcassets in Resources */,
+				719FB2901CEB68D100000CAD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		719FB27E1CEB68D100000CAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				719FB28D1CEB68D100000CAD /* ViewController.m in Sources */,
+				719FB28A1CEB68D100000CAD /* AppDelegate.m in Sources */,
+				719FB2871CEB68D100000CAD /* main.m in Sources */,
+				719FB29F1CEB691100000CAD /* GamePad.m in Sources */,
+				719FB2A21CEB695100000CAD /* GamePad+Coin.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		719FB28E1CEB68D100000CAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				719FB28F1CEB68D100000CAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		719FB2931CEB68D100000CAD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				719FB2941CEB68D100000CAD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		719FB2971CEB68D100000CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		719FB2981CEB68D100000CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		719FB29A1CEB68D100000CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "L0604_category的使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.earth.L0604-category---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		719FB29B1CEB68D100000CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "L0604_category的使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.earth.L0604-category---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		719FB27D1CEB68D100000CAD /* Build configuration list for PBXProject "L0604_category的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				719FB2971CEB68D100000CAD /* Debug */,
+				719FB2981CEB68D100000CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		719FB2991CEB68D100000CAD /* Build configuration list for PBXNativeTarget "L0604_category的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				719FB29A1CEB68D100000CAD /* Debug */,
+				719FB29B1CEB68D100000CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 719FB27A1CEB68D100000CAD /* Project object */;
+}

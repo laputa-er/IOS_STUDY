@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71BEE9CE1CD79D94008351C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BEE9CD1CD79D94008351C7 /* main.m */; };
+		71BEE9D11CD79D94008351C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BEE9D01CD79D94008351C7 /* AppDelegate.m */; };
+		71BEE9D41CD79D94008351C7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BEE9D31CD79D94008351C7 /* ViewController.m */; };
+		71BEE9D71CD79D94008351C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71BEE9D51CD79D94008351C7 /* Main.storyboard */; };
+		71BEE9D91CD79D94008351C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71BEE9D81CD79D94008351C7 /* Assets.xcassets */; };
+		71BEE9DC1CD79D94008351C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71BEE9DA1CD79D94008351C7 /* LaunchScreen.storyboard */; };
+		71BEE9E61CD79E44008351C7 /* Shape.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BEE9E51CD79E44008351C7 /* Shape.m */; };
+		71BEE9E91CD79F10008351C7 /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BEE9E81CD79F10008351C7 /* Rectangle.m */; };
+		71BEE9EC1CD79F71008351C7 /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BEE9EB1CD79F71008351C7 /* Circle.m */; };
+		71BEE9EF1CD79FFB008351C7 /* ShapeMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BEE9EE1CD79FFB008351C7 /* ShapeMaker.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		71BEE9C91CD79D94008351C7 /* L050203_如何绘制复杂的图形.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "L050203_如何绘制复杂的图形.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71BEE9CD1CD79D94008351C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		71BEE9CF1CD79D94008351C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		71BEE9D01CD79D94008351C7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		71BEE9D21CD79D94008351C7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		71BEE9D31CD79D94008351C7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		71BEE9D61CD79D94008351C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71BEE9D81CD79D94008351C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71BEE9DB1CD79D94008351C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71BEE9DD1CD79D94008351C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71BEE9E41CD79E44008351C7 /* Shape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shape.h; sourceTree = "<group>"; };
+		71BEE9E51CD79E44008351C7 /* Shape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shape.m; sourceTree = "<group>"; };
+		71BEE9E71CD79F10008351C7 /* Rectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
+		71BEE9E81CD79F10008351C7 /* Rectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rectangle.m; sourceTree = "<group>"; };
+		71BEE9EA1CD79F71008351C7 /* Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		71BEE9EB1CD79F71008351C7 /* Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Circle.m; sourceTree = "<group>"; };
+		71BEE9ED1CD79FFB008351C7 /* ShapeMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShapeMaker.h; sourceTree = "<group>"; };
+		71BEE9EE1CD79FFB008351C7 /* ShapeMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShapeMaker.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71BEE9C61CD79D94008351C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71BEE9C01CD79D94008351C7 = {
+			isa = PBXGroup;
+			children = (
+				71BEE9CB1CD79D94008351C7 /* L050203_如何绘制复杂的图形 */,
+				71BEE9CA1CD79D94008351C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71BEE9CA1CD79D94008351C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71BEE9C91CD79D94008351C7 /* L050203_如何绘制复杂的图形.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71BEE9CB1CD79D94008351C7 /* L050203_如何绘制复杂的图形 */ = {
+			isa = PBXGroup;
+			children = (
+				71BEE9E31CD79E12008351C7 /* Shape */,
+				71BEE9CF1CD79D94008351C7 /* AppDelegate.h */,
+				71BEE9D01CD79D94008351C7 /* AppDelegate.m */,
+				71BEE9D21CD79D94008351C7 /* ViewController.h */,
+				71BEE9D31CD79D94008351C7 /* ViewController.m */,
+				71BEE9D51CD79D94008351C7 /* Main.storyboard */,
+				71BEE9D81CD79D94008351C7 /* Assets.xcassets */,
+				71BEE9DA1CD79D94008351C7 /* LaunchScreen.storyboard */,
+				71BEE9DD1CD79D94008351C7 /* Info.plist */,
+				71BEE9CC1CD79D94008351C7 /* Supporting Files */,
+				71BEE9ED1CD79FFB008351C7 /* ShapeMaker.h */,
+				71BEE9EE1CD79FFB008351C7 /* ShapeMaker.m */,
+			);
+			path = "L050203_如何绘制复杂的图形";
+			sourceTree = "<group>";
+		};
+		71BEE9CC1CD79D94008351C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				71BEE9CD1CD79D94008351C7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		71BEE9E31CD79E12008351C7 /* Shape */ = {
+			isa = PBXGroup;
+			children = (
+				71BEE9E41CD79E44008351C7 /* Shape.h */,
+				71BEE9E51CD79E44008351C7 /* Shape.m */,
+				71BEE9E71CD79F10008351C7 /* Rectangle.h */,
+				71BEE9E81CD79F10008351C7 /* Rectangle.m */,
+				71BEE9EA1CD79F71008351C7 /* Circle.h */,
+				71BEE9EB1CD79F71008351C7 /* Circle.m */,
+			);
+			name = Shape;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71BEE9C81CD79D94008351C7 /* L050203_如何绘制复杂的图形 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71BEE9E01CD79D94008351C7 /* Build configuration list for PBXNativeTarget "L050203_如何绘制复杂的图形" */;
+			buildPhases = (
+				71BEE9C51CD79D94008351C7 /* Sources */,
+				71BEE9C61CD79D94008351C7 /* Frameworks */,
+				71BEE9C71CD79D94008351C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "L050203_如何绘制复杂的图形";
+			productName = "L050203_如何绘制复杂的图形";
+			productReference = 71BEE9C91CD79D94008351C7 /* L050203_如何绘制复杂的图形.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71BEE9C11CD79D94008351C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = TonyEarth;
+				TargetAttributes = {
+					71BEE9C81CD79D94008351C7 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = E355287BUN;
+					};
+				};
+			};
+			buildConfigurationList = 71BEE9C41CD79D94008351C7 /* Build configuration list for PBXProject "L050203_如何绘制复杂的图形" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71BEE9C01CD79D94008351C7;
+			productRefGroup = 71BEE9CA1CD79D94008351C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71BEE9C81CD79D94008351C7 /* L050203_如何绘制复杂的图形 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71BEE9C71CD79D94008351C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71BEE9DC1CD79D94008351C7 /* LaunchScreen.storyboard in Resources */,
+				71BEE9D91CD79D94008351C7 /* Assets.xcassets in Resources */,
+				71BEE9D71CD79D94008351C7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71BEE9C51CD79D94008351C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71BEE9D41CD79D94008351C7 /* ViewController.m in Sources */,
+				71BEE9EF1CD79FFB008351C7 /* ShapeMaker.m in Sources */,
+				71BEE9D11CD79D94008351C7 /* AppDelegate.m in Sources */,
+				71BEE9CE1CD79D94008351C7 /* main.m in Sources */,
+				71BEE9EC1CD79F71008351C7 /* Circle.m in Sources */,
+				71BEE9E61CD79E44008351C7 /* Shape.m in Sources */,
+				71BEE9E91CD79F10008351C7 /* Rectangle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		71BEE9D51CD79D94008351C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71BEE9D61CD79D94008351C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		71BEE9DA1CD79D94008351C7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71BEE9DB1CD79D94008351C7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71BEE9DE1CD79D94008351C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		71BEE9DF1CD79D94008351C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71BEE9E11CD79D94008351C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "L050203_如何绘制复杂的图形/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.earth.L050203----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		71BEE9E21CD79D94008351C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "L050203_如何绘制复杂的图形/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.earth.L050203----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71BEE9C41CD79D94008351C7 /* Build configuration list for PBXProject "L050203_如何绘制复杂的图形" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71BEE9DE1CD79D94008351C7 /* Debug */,
+				71BEE9DF1CD79D94008351C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71BEE9E01CD79D94008351C7 /* Build configuration list for PBXNativeTarget "L050203_如何绘制复杂的图形" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71BEE9E11CD79D94008351C7 /* Debug */,
+				71BEE9E21CD79D94008351C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71BEE9C11CD79D94008351C7 /* Project object */;
+}

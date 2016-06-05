@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		719FB2EA1CF011A300000CAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 719FB2E91CF011A300000CAD /* main.m */; };
+		719FB2ED1CF011A300000CAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 719FB2EC1CF011A300000CAD /* AppDelegate.m */; };
+		719FB2F01CF011A300000CAD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 719FB2EF1CF011A300000CAD /* ViewController.m */; };
+		719FB2F31CF011A300000CAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 719FB2F11CF011A300000CAD /* Main.storyboard */; };
+		719FB2F51CF011A300000CAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 719FB2F41CF011A300000CAD /* Assets.xcassets */; };
+		719FB2F81CF011A300000CAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 719FB2F61CF011A300000CAD /* LaunchScreen.storyboard */; };
+		719FB3041CF0169100000CAD /* BasePhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 719FB3031CF0169100000CAD /* BasePhone.m */; };
+		719FB3071CF016B900000CAD /* iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 719FB3061CF016B900000CAD /* iPhone.m */; };
+		719FB30A1CF016D800000CAD /* AndroidPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 719FB3091CF016D800000CAD /* AndroidPhone.m */; };
+		719FB30D1CF016EF00000CAD /* BaseWatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 719FB30C1CF016EF00000CAD /* BaseWatch.m */; };
+		719FB3101CF0170300000CAD /* iWatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 719FB30F1CF0170300000CAD /* iWatch.m */; };
+		719FB3131CF0171500000CAD /* AndroidWatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 719FB3121CF0171500000CAD /* AndroidWatch.m */; };
+		719FB3161CF0176300000CAD /* BaseFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 719FB3151CF0176300000CAD /* BaseFactory.m */; };
+		719FB3191CF0182E00000CAD /* AppleFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 719FB3181CF0182E00000CAD /* AppleFactory.m */; };
+		719FB31C1CF018A800000CAD /* GoogleFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 719FB31B1CF018A800000CAD /* GoogleFactory.m */; };
+		719FB31F1CF0195F00000CAD /* FactoryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 719FB31E1CF0195F00000CAD /* FactoryManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		719FB2E51CF011A200000CAD /* L0703_抽象工厂.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "L0703_抽象工厂.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		719FB2E91CF011A300000CAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		719FB2EB1CF011A300000CAD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		719FB2EC1CF011A300000CAD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		719FB2EE1CF011A300000CAD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		719FB2EF1CF011A300000CAD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		719FB2F21CF011A300000CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		719FB2F41CF011A300000CAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		719FB2F71CF011A300000CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		719FB2F91CF011A300000CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		719FB3021CF0169100000CAD /* BasePhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasePhone.h; sourceTree = "<group>"; };
+		719FB3031CF0169100000CAD /* BasePhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasePhone.m; sourceTree = "<group>"; };
+		719FB3051CF016B900000CAD /* iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPhone.h; sourceTree = "<group>"; };
+		719FB3061CF016B900000CAD /* iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPhone.m; sourceTree = "<group>"; };
+		719FB3081CF016D800000CAD /* AndroidPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndroidPhone.h; sourceTree = "<group>"; };
+		719FB3091CF016D800000CAD /* AndroidPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AndroidPhone.m; sourceTree = "<group>"; };
+		719FB30B1CF016EF00000CAD /* BaseWatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseWatch.h; sourceTree = "<group>"; };
+		719FB30C1CF016EF00000CAD /* BaseWatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseWatch.m; sourceTree = "<group>"; };
+		719FB30E1CF0170300000CAD /* iWatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iWatch.h; sourceTree = "<group>"; };
+		719FB30F1CF0170300000CAD /* iWatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iWatch.m; sourceTree = "<group>"; };
+		719FB3111CF0171500000CAD /* AndroidWatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndroidWatch.h; sourceTree = "<group>"; };
+		719FB3121CF0171500000CAD /* AndroidWatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AndroidWatch.m; sourceTree = "<group>"; };
+		719FB3141CF0176300000CAD /* BaseFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseFactory.h; sourceTree = "<group>"; };
+		719FB3151CF0176300000CAD /* BaseFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseFactory.m; sourceTree = "<group>"; };
+		719FB3171CF0182E00000CAD /* AppleFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleFactory.h; sourceTree = "<group>"; };
+		719FB3181CF0182E00000CAD /* AppleFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleFactory.m; sourceTree = "<group>"; };
+		719FB31A1CF018A800000CAD /* GoogleFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleFactory.h; sourceTree = "<group>"; };
+		719FB31B1CF018A800000CAD /* GoogleFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleFactory.m; sourceTree = "<group>"; };
+		719FB31D1CF0195F00000CAD /* FactoryManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactoryManager.h; sourceTree = "<group>"; };
+		719FB31E1CF0195F00000CAD /* FactoryManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactoryManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		719FB2E21CF011A200000CAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		719FB2DC1CF011A200000CAD = {
+			isa = PBXGroup;
+			children = (
+				719FB2E71CF011A300000CAD /* L0703_抽象工厂 */,
+				719FB2E61CF011A200000CAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		719FB2E61CF011A200000CAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				719FB2E51CF011A200000CAD /* L0703_抽象工厂.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		719FB2E71CF011A300000CAD /* L0703_抽象工厂 */ = {
+			isa = PBXGroup;
+			children = (
+				719FB3011CF0166C00000CAD /* Watch */,
+				719FB3001CF0166200000CAD /* Phone */,
+				719FB2FF1CF0164D00000CAD /* Factory */,
+				719FB31D1CF0195F00000CAD /* FactoryManager.h */,
+				719FB31E1CF0195F00000CAD /* FactoryManager.m */,
+				719FB2EE1CF011A300000CAD /* ViewController.h */,
+				719FB2EF1CF011A300000CAD /* ViewController.m */,
+				719FB2EB1CF011A300000CAD /* AppDelegate.h */,
+				719FB2EC1CF011A300000CAD /* AppDelegate.m */,
+				719FB2F11CF011A300000CAD /* Main.storyboard */,
+				719FB2F41CF011A300000CAD /* Assets.xcassets */,
+				719FB2F61CF011A300000CAD /* LaunchScreen.storyboard */,
+				719FB2F91CF011A300000CAD /* Info.plist */,
+				719FB2E81CF011A300000CAD /* Supporting Files */,
+			);
+			path = "L0703_抽象工厂";
+			sourceTree = "<group>";
+		};
+		719FB2E81CF011A300000CAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				719FB2E91CF011A300000CAD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		719FB2FF1CF0164D00000CAD /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				719FB3141CF0176300000CAD /* BaseFactory.h */,
+				719FB3151CF0176300000CAD /* BaseFactory.m */,
+				719FB3171CF0182E00000CAD /* AppleFactory.h */,
+				719FB3181CF0182E00000CAD /* AppleFactory.m */,
+				719FB31A1CF018A800000CAD /* GoogleFactory.h */,
+				719FB31B1CF018A800000CAD /* GoogleFactory.m */,
+			);
+			name = Factory;
+			sourceTree = "<group>";
+		};
+		719FB3001CF0166200000CAD /* Phone */ = {
+			isa = PBXGroup;
+			children = (
+				719FB3021CF0169100000CAD /* BasePhone.h */,
+				719FB3031CF0169100000CAD /* BasePhone.m */,
+				719FB3051CF016B900000CAD /* iPhone.h */,
+				719FB3061CF016B900000CAD /* iPhone.m */,
+				719FB3081CF016D800000CAD /* AndroidPhone.h */,
+				719FB3091CF016D800000CAD /* AndroidPhone.m */,
+			);
+			name = Phone;
+			sourceTree = "<group>";
+		};
+		719FB3011CF0166C00000CAD /* Watch */ = {
+			isa = PBXGroup;
+			children = (
+				719FB30B1CF016EF00000CAD /* BaseWatch.h */,
+				719FB30C1CF016EF00000CAD /* BaseWatch.m */,
+				719FB30E1CF0170300000CAD /* iWatch.h */,
+				719FB30F1CF0170300000CAD /* iWatch.m */,
+				719FB3111CF0171500000CAD /* AndroidWatch.h */,
+				719FB3121CF0171500000CAD /* AndroidWatch.m */,
+			);
+			name = Watch;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		719FB2E41CF011A200000CAD /* L0703_抽象工厂 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 719FB2FC1CF011A300000CAD /* Build configuration list for PBXNativeTarget "L0703_抽象工厂" */;
+			buildPhases = (
+				719FB2E11CF011A200000CAD /* Sources */,
+				719FB2E21CF011A200000CAD /* Frameworks */,
+				719FB2E31CF011A200000CAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "L0703_抽象工厂";
+			productName = "L0703_抽象工厂";
+			productReference = 719FB2E51CF011A200000CAD /* L0703_抽象工厂.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		719FB2DD1CF011A200000CAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = TonyEarth;
+				TargetAttributes = {
+					719FB2E41CF011A200000CAD = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = E355287BUN;
+					};
+				};
+			};
+			buildConfigurationList = 719FB2E01CF011A200000CAD /* Build configuration list for PBXProject "L0703_抽象工厂" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 719FB2DC1CF011A200000CAD;
+			productRefGroup = 719FB2E61CF011A200000CAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				719FB2E41CF011A200000CAD /* L0703_抽象工厂 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		719FB2E31CF011A200000CAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				719FB2F81CF011A300000CAD /* LaunchScreen.storyboard in Resources */,
+				719FB2F51CF011A300000CAD /* Assets.xcassets in Resources */,
+				719FB2F31CF011A300000CAD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		719FB2E11CF011A200000CAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				719FB3191CF0182E00000CAD /* AppleFactory.m in Sources */,
+				719FB30A1CF016D800000CAD /* AndroidPhone.m in Sources */,
+				719FB31F1CF0195F00000CAD /* FactoryManager.m in Sources */,
+				719FB3131CF0171500000CAD /* AndroidWatch.m in Sources */,
+				719FB31C1CF018A800000CAD /* GoogleFactory.m in Sources */,
+				719FB2F01CF011A300000CAD /* ViewController.m in Sources */,
+				719FB2ED1CF011A300000CAD /* AppDelegate.m in Sources */,
+				719FB3101CF0170300000CAD /* iWatch.m in Sources */,
+				719FB30D1CF016EF00000CAD /* BaseWatch.m in Sources */,
+				719FB2EA1CF011A300000CAD /* main.m in Sources */,
+				719FB3071CF016B900000CAD /* iPhone.m in Sources */,
+				719FB3041CF0169100000CAD /* BasePhone.m in Sources */,
+				719FB3161CF0176300000CAD /* BaseFactory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		719FB2F11CF011A300000CAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				719FB2F21CF011A300000CAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		719FB2F61CF011A300000CAD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				719FB2F71CF011A300000CAD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		719FB2FA1CF011A300000CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		719FB2FB1CF011A300000CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		719FB2FD1CF011A300000CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "L0703_抽象工厂/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.earth.L0703-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		719FB2FE1CF011A300000CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "L0703_抽象工厂/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.earth.L0703-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		719FB2E01CF011A200000CAD /* Build configuration list for PBXProject "L0703_抽象工厂" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				719FB2FA1CF011A300000CAD /* Debug */,
+				719FB2FB1CF011A300000CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		719FB2FC1CF011A300000CAD /* Build configuration list for PBXNativeTarget "L0703_抽象工厂" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				719FB2FD1CF011A300000CAD /* Debug */,
+				719FB2FE1CF011A300000CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 719FB2DD1CF011A200000CAD /* Project object */;
+}

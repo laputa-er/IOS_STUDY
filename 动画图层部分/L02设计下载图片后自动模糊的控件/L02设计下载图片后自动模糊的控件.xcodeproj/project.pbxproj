@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71AF88961CB3C4780022BDC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71AF88951CB3C4780022BDC2 /* main.m */; };
+		71AF88991CB3C4780022BDC2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71AF88981CB3C4780022BDC2 /* AppDelegate.m */; };
+		71AF889C1CB3C4780022BDC2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71AF889B1CB3C4780022BDC2 /* ViewController.m */; };
+		71AF889F1CB3C4780022BDC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71AF889D1CB3C4780022BDC2 /* Main.storyboard */; };
+		71AF88A11CB3C4780022BDC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71AF88A01CB3C4780022BDC2 /* Assets.xcassets */; };
+		71AF88A41CB3C4780022BDC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71AF88A21CB3C4780022BDC2 /* LaunchScreen.storyboard */; };
+		71AF88B51CB40C8A0022BDC2 /* GCDGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 71AF88AE1CB40C8A0022BDC2 /* GCDGroup.m */; };
+		71AF88B61CB40C8A0022BDC2 /* GCDQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 71AF88B01CB40C8A0022BDC2 /* GCDQueue.m */; };
+		71AF88B71CB40C8A0022BDC2 /* GCDSemaphore.m in Sources */ = {isa = PBXBuildFile; fileRef = 71AF88B21CB40C8A0022BDC2 /* GCDSemaphore.m */; };
+		71AF88B81CB40C8A0022BDC2 /* GCDTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 71AF88B41CB40C8A0022BDC2 /* GCDTimer.m */; };
+		71AF88BC1CB40CE60022BDC2 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 71AF88BB1CB40CE60022BDC2 /* UIImage+ImageEffects.m */; };
+		71AF88BF1CB40E2E0022BDC2 /* BlurDownloadPicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71AF88BE1CB40E2E0022BDC2 /* BlurDownloadPicView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		71AF88911CB3C4780022BDC2 /* L02设计下载图片后自动模糊的控件.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "L02设计下载图片后自动模糊的控件.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71AF88951CB3C4780022BDC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		71AF88971CB3C4780022BDC2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		71AF88981CB3C4780022BDC2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		71AF889A1CB3C4780022BDC2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		71AF889B1CB3C4780022BDC2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		71AF889E1CB3C4780022BDC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71AF88A01CB3C4780022BDC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71AF88A31CB3C4780022BDC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71AF88A51CB3C4780022BDC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71AF88AC1CB40C8A0022BDC2 /* GCD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCD.h; sourceTree = "<group>"; };
+		71AF88AD1CB40C8A0022BDC2 /* GCDGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDGroup.h; sourceTree = "<group>"; };
+		71AF88AE1CB40C8A0022BDC2 /* GCDGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDGroup.m; sourceTree = "<group>"; };
+		71AF88AF1CB40C8A0022BDC2 /* GCDQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDQueue.h; sourceTree = "<group>"; };
+		71AF88B01CB40C8A0022BDC2 /* GCDQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDQueue.m; sourceTree = "<group>"; };
+		71AF88B11CB40C8A0022BDC2 /* GCDSemaphore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDSemaphore.h; sourceTree = "<group>"; };
+		71AF88B21CB40C8A0022BDC2 /* GCDSemaphore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDSemaphore.m; sourceTree = "<group>"; };
+		71AF88B31CB40C8A0022BDC2 /* GCDTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDTimer.h; sourceTree = "<group>"; };
+		71AF88B41CB40C8A0022BDC2 /* GCDTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDTimer.m; sourceTree = "<group>"; };
+		71AF88BA1CB40CE60022BDC2 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		71AF88BB1CB40CE60022BDC2 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		71AF88BD1CB40E2E0022BDC2 /* BlurDownloadPicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlurDownloadPicView.h; sourceTree = "<group>"; };
+		71AF88BE1CB40E2E0022BDC2 /* BlurDownloadPicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlurDownloadPicView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71AF888E1CB3C4780022BDC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71AF88881CB3C4770022BDC2 = {
+			isa = PBXGroup;
+			children = (
+				71AF88931CB3C4780022BDC2 /* L02设计下载图片后自动模糊的控件 */,
+				71AF88921CB3C4780022BDC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71AF88921CB3C4780022BDC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71AF88911CB3C4780022BDC2 /* L02设计下载图片后自动模糊的控件.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71AF88931CB3C4780022BDC2 /* L02设计下载图片后自动模糊的控件 */ = {
+			isa = PBXGroup;
+			children = (
+				71AF88B91CB40CE60022BDC2 /* UIImage+ImageEffects */,
+				71AF88AB1CB40C8A0022BDC2 /* GCD */,
+				71AF88971CB3C4780022BDC2 /* AppDelegate.h */,
+				71AF88981CB3C4780022BDC2 /* AppDelegate.m */,
+				71AF889A1CB3C4780022BDC2 /* ViewController.h */,
+				71AF889B1CB3C4780022BDC2 /* ViewController.m */,
+				71AF889D1CB3C4780022BDC2 /* Main.storyboard */,
+				71AF88A01CB3C4780022BDC2 /* Assets.xcassets */,
+				71AF88A21CB3C4780022BDC2 /* LaunchScreen.storyboard */,
+				71AF88A51CB3C4780022BDC2 /* Info.plist */,
+				71AF88941CB3C4780022BDC2 /* Supporting Files */,
+				71AF88BD1CB40E2E0022BDC2 /* BlurDownloadPicView.h */,
+				71AF88BE1CB40E2E0022BDC2 /* BlurDownloadPicView.m */,
+			);
+			path = "L02设计下载图片后自动模糊的控件";
+			sourceTree = "<group>";
+		};
+		71AF88941CB3C4780022BDC2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				71AF88951CB3C4780022BDC2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		71AF88AB1CB40C8A0022BDC2 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				71AF88AC1CB40C8A0022BDC2 /* GCD.h */,
+				71AF88AD1CB40C8A0022BDC2 /* GCDGroup.h */,
+				71AF88AE1CB40C8A0022BDC2 /* GCDGroup.m */,
+				71AF88AF1CB40C8A0022BDC2 /* GCDQueue.h */,
+				71AF88B01CB40C8A0022BDC2 /* GCDQueue.m */,
+				71AF88B11CB40C8A0022BDC2 /* GCDSemaphore.h */,
+				71AF88B21CB40C8A0022BDC2 /* GCDSemaphore.m */,
+				71AF88B31CB40C8A0022BDC2 /* GCDTimer.h */,
+				71AF88B41CB40C8A0022BDC2 /* GCDTimer.m */,
+			);
+			path = GCD;
+			sourceTree = "<group>";
+		};
+		71AF88B91CB40CE60022BDC2 /* UIImage+ImageEffects */ = {
+			isa = PBXGroup;
+			children = (
+				71AF88BA1CB40CE60022BDC2 /* UIImage+ImageEffects.h */,
+				71AF88BB1CB40CE60022BDC2 /* UIImage+ImageEffects.m */,
+			);
+			name = "UIImage+ImageEffects";
+			path = "GCD/UIImage+ImageEffects";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71AF88901CB3C4780022BDC2 /* L02设计下载图片后自动模糊的控件 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71AF88A81CB3C4780022BDC2 /* Build configuration list for PBXNativeTarget "L02设计下载图片后自动模糊的控件" */;
+			buildPhases = (
+				71AF888D1CB3C4780022BDC2 /* Sources */,
+				71AF888E1CB3C4780022BDC2 /* Frameworks */,
+				71AF888F1CB3C4780022BDC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "L02设计下载图片后自动模糊的控件";
+			productName = "L02设计下载图片后自动模糊的控件";
+			productReference = 71AF88911CB3C4780022BDC2 /* L02设计下载图片后自动模糊的控件.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71AF88891CB3C4770022BDC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = TonyEarth;
+				TargetAttributes = {
+					71AF88901CB3C4780022BDC2 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = E355287BUN;
+					};
+				};
+			};
+			buildConfigurationList = 71AF888C1CB3C4770022BDC2 /* Build configuration list for PBXProject "L02设计下载图片后自动模糊的控件" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71AF88881CB3C4770022BDC2;
+			productRefGroup = 71AF88921CB3C4780022BDC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71AF88901CB3C4780022BDC2 /* L02设计下载图片后自动模糊的控件 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71AF888F1CB3C4780022BDC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71AF88A41CB3C4780022BDC2 /* LaunchScreen.storyboard in Resources */,
+				71AF88A11CB3C4780022BDC2 /* Assets.xcassets in Resources */,
+				71AF889F1CB3C4780022BDC2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71AF888D1CB3C4780022BDC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71AF88BC1CB40CE60022BDC2 /* UIImage+ImageEffects.m in Sources */,
+				71AF88B51CB40C8A0022BDC2 /* GCDGroup.m in Sources */,
+				71AF889C1CB3C4780022BDC2 /* ViewController.m in Sources */,
+				71AF88991CB3C4780022BDC2 /* AppDelegate.m in Sources */,
+				71AF88961CB3C4780022BDC2 /* main.m in Sources */,
+				71AF88BF1CB40E2E0022BDC2 /* BlurDownloadPicView.m in Sources */,
+				71AF88B81CB40C8A0022BDC2 /* GCDTimer.m in Sources */,
+				71AF88B61CB40C8A0022BDC2 /* GCDQueue.m in Sources */,
+				71AF88B71CB40C8A0022BDC2 /* GCDSemaphore.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		71AF889D1CB3C4780022BDC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71AF889E1CB3C4780022BDC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		71AF88A21CB3C4780022BDC2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71AF88A31CB3C4780022BDC2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71AF88A61CB3C4780022BDC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		71AF88A71CB3C4780022BDC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71AF88A91CB3C4780022BDC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "L02设计下载图片后自动模糊的控件/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.earth.L02--------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		71AF88AA1CB3C4780022BDC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "L02设计下载图片后自动模糊的控件/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.earth.L02--------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71AF888C1CB3C4770022BDC2 /* Build configuration list for PBXProject "L02设计下载图片后自动模糊的控件" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71AF88A61CB3C4780022BDC2 /* Debug */,
+				71AF88A71CB3C4780022BDC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71AF88A81CB3C4780022BDC2 /* Build configuration list for PBXNativeTarget "L02设计下载图片后自动模糊的控件" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71AF88A91CB3C4780022BDC2 /* Debug */,
+				71AF88AA1CB3C4780022BDC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71AF88891CB3C4770022BDC2 /* Project object */;
+}

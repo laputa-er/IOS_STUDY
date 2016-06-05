@@ -1,0 +1,35 @@
+//
+//  GamePad.h
+//  L0604_category的使用
+//
+//  Created by TonyEarth on 16/5/17.
+//  Copyright © 2016年 TonyEarth. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+@interface GamePad : NSObject
+
+/**
+*  上下左右的操作
+*/
+- (void)up;
+- (void)down;
+- (void)left;
+- (void)right;
+
+/**
+ *  选择与开始的操作
+ */
+- (void)select;
+- (void)start;
+
+/**
+ *  按钮 A + B + X + Y
+ */
+- (void)commandA;
+- (void)commandB;
+- (void)commandX;
+- (void)commandY;
+
+@end

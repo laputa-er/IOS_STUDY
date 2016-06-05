@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7173D5D91CF9EE6800D76CA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7173D5D81CF9EE6800D76CA2 /* main.m */; };
+		7173D5DC1CF9EE6800D76CA2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7173D5DB1CF9EE6800D76CA2 /* AppDelegate.m */; };
+		7173D5DF1CF9EE6800D76CA2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7173D5DE1CF9EE6800D76CA2 /* ViewController.m */; };
+		7173D5E21CF9EE6800D76CA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7173D5E01CF9EE6800D76CA2 /* Main.storyboard */; };
+		7173D5E41CF9EE6800D76CA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7173D5E31CF9EE6800D76CA2 /* Assets.xcassets */; };
+		7173D5E71CF9EE6800D76CA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7173D5E51CF9EE6800D76CA2 /* LaunchScreen.storyboard */; };
+		7173D5F61CFA9A3A00D76CA2 /* Engine.m in Sources */ = {isa = PBXBuildFile; fileRef = 7173D5F51CFA9A3A00D76CA2 /* Engine.m */; };
+		7173D5FA1CFA9C1900D76CA2 /* YEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 7173D5F91CFA9C1900D76CA2 /* YEngine.m */; };
+		7173D5FD1CFA9F1400D76CA2 /* Wheels.m in Sources */ = {isa = PBXBuildFile; fileRef = 7173D5FC1CFA9F1400D76CA2 /* Wheels.m */; };
+		7173D6001CFAA1C200D76CA2 /* Door.m in Sources */ = {isa = PBXBuildFile; fileRef = 7173D5FF1CFAA1C200D76CA2 /* Door.m */; };
+		7173D6031CFAA60C00D76CA2 /* Builder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7173D6021CFAA60C00D76CA2 /* Builder.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7173D5D41CF9EE6800D76CA2 /* L1203_制造汽车的流程.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "L1203_制造汽车的流程.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7173D5D81CF9EE6800D76CA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7173D5DA1CF9EE6800D76CA2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7173D5DB1CF9EE6800D76CA2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7173D5DD1CF9EE6800D76CA2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7173D5DE1CF9EE6800D76CA2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7173D5E11CF9EE6800D76CA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7173D5E31CF9EE6800D76CA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7173D5E61CF9EE6800D76CA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7173D5E81CF9EE6800D76CA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7173D5F11CFA965600D76CA2 /* AbstractEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractEngine.h; sourceTree = "<group>"; };
+		7173D5F21CFA972700D76CA2 /* AbstractWheels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractWheels.h; sourceTree = "<group>"; };
+		7173D5F31CFA997A00D76CA2 /* AbstractDoor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractDoor.h; sourceTree = "<group>"; };
+		7173D5F41CFA9A3A00D76CA2 /* Engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Engine.h; sourceTree = "<group>"; };
+		7173D5F51CFA9A3A00D76CA2 /* Engine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Engine.m; sourceTree = "<group>"; };
+		7173D5F71CFA9ABD00D76CA2 /* BuilderProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuilderProtocol.h; sourceTree = "<group>"; };
+		7173D5F81CFA9C1900D76CA2 /* YEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YEngine.h; sourceTree = "<group>"; };
+		7173D5F91CFA9C1900D76CA2 /* YEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YEngine.m; sourceTree = "<group>"; };
+		7173D5FB1CFA9F1400D76CA2 /* Wheels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wheels.h; sourceTree = "<group>"; };
+		7173D5FC1CFA9F1400D76CA2 /* Wheels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wheels.m; sourceTree = "<group>"; };
+		7173D5FE1CFAA1C200D76CA2 /* Door.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Door.h; sourceTree = "<group>"; };
+		7173D5FF1CFAA1C200D76CA2 /* Door.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Door.m; sourceTree = "<group>"; };
+		7173D6011CFAA60C00D76CA2 /* Builder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Builder.h; sourceTree = "<group>"; };
+		7173D6021CFAA60C00D76CA2 /* Builder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Builder.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7173D5D11CF9EE6800D76CA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7173D5CB1CF9EE6800D76CA2 = {
+			isa = PBXGroup;
+			children = (
+				7173D5D61CF9EE6800D76CA2 /* L1203_制造汽车的流程 */,
+				7173D5D51CF9EE6800D76CA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7173D5D51CF9EE6800D76CA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7173D5D41CF9EE6800D76CA2 /* L1203_制造汽车的流程.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7173D5D61CF9EE6800D76CA2 /* L1203_制造汽车的流程 */ = {
+			isa = PBXGroup;
+			children = (
+				7173D5F01CF9EED800D76CA2 /* Builder */,
+				7173D5EF1CF9EECB00D76CA2 /* AbstractParts */,
+				7173D5EE1CF9EEBF00D76CA2 /* Parts */,
+				7173D5DD1CF9EE6800D76CA2 /* ViewController.h */,
+				7173D5DE1CF9EE6800D76CA2 /* ViewController.m */,
+				7173D5DA1CF9EE6800D76CA2 /* AppDelegate.h */,
+				7173D5DB1CF9EE6800D76CA2 /* AppDelegate.m */,
+				7173D5E01CF9EE6800D76CA2 /* Main.storyboard */,
+				7173D5E31CF9EE6800D76CA2 /* Assets.xcassets */,
+				7173D5E51CF9EE6800D76CA2 /* LaunchScreen.storyboard */,
+				7173D5E81CF9EE6800D76CA2 /* Info.plist */,
+				7173D5D71CF9EE6800D76CA2 /* Supporting Files */,
+			);
+			path = "L1203_制造汽车的流程";
+			sourceTree = "<group>";
+		};
+		7173D5D71CF9EE6800D76CA2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7173D5D81CF9EE6800D76CA2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7173D5EE1CF9EEBF00D76CA2 /* Parts */ = {
+			isa = PBXGroup;
+			children = (
+				7173D5F41CFA9A3A00D76CA2 /* Engine.h */,
+				7173D5F51CFA9A3A00D76CA2 /* Engine.m */,
+				7173D5F81CFA9C1900D76CA2 /* YEngine.h */,
+				7173D5F91CFA9C1900D76CA2 /* YEngine.m */,
+				7173D5FB1CFA9F1400D76CA2 /* Wheels.h */,
+				7173D5FC1CFA9F1400D76CA2 /* Wheels.m */,
+				7173D5FE1CFAA1C200D76CA2 /* Door.h */,
+				7173D5FF1CFAA1C200D76CA2 /* Door.m */,
+			);
+			name = Parts;
+			sourceTree = "<group>";
+		};
+		7173D5EF1CF9EECB00D76CA2 /* AbstractParts */ = {
+			isa = PBXGroup;
+			children = (
+				7173D5F11CFA965600D76CA2 /* AbstractEngine.h */,
+				7173D5F21CFA972700D76CA2 /* AbstractWheels.h */,
+				7173D5F31CFA997A00D76CA2 /* AbstractDoor.h */,
+			);
+			name = AbstractParts;
+			sourceTree = "<group>";
+		};
+		7173D5F01CF9EED800D76CA2 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				7173D5F71CFA9ABD00D76CA2 /* BuilderProtocol.h */,
+				7173D6011CFAA60C00D76CA2 /* Builder.h */,
+				7173D6021CFAA60C00D76CA2 /* Builder.m */,
+			);
+			name = Builder;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7173D5D31CF9EE6800D76CA2 /* L1203_制造汽车的流程 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7173D5EB1CF9EE6800D76CA2 /* Build configuration list for PBXNativeTarget "L1203_制造汽车的流程" */;
+			buildPhases = (
+				7173D5D01CF9EE6800D76CA2 /* Sources */,
+				7173D5D11CF9EE6800D76CA2 /* Frameworks */,
+				7173D5D21CF9EE6800D76CA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "L1203_制造汽车的流程";
+			productName = "L1203_制造汽车的流程";
+			productReference = 7173D5D41CF9EE6800D76CA2 /* L1203_制造汽车的流程.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7173D5CC1CF9EE6800D76CA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = TonyEarth;
+				TargetAttributes = {
+					7173D5D31CF9EE6800D76CA2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = E355287BUN;
+					};
+				};
+			};
+			buildConfigurationList = 7173D5CF1CF9EE6800D76CA2 /* Build configuration list for PBXProject "L1203_制造汽车的流程" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7173D5CB1CF9EE6800D76CA2;
+			productRefGroup = 7173D5D51CF9EE6800D76CA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7173D5D31CF9EE6800D76CA2 /* L1203_制造汽车的流程 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7173D5D21CF9EE6800D76CA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7173D5E71CF9EE6800D76CA2 /* LaunchScreen.storyboard in Resources */,
+				7173D5E41CF9EE6800D76CA2 /* Assets.xcassets in Resources */,
+				7173D5E21CF9EE6800D76CA2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7173D5D01CF9EE6800D76CA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7173D5DF1CF9EE6800D76CA2 /* ViewController.m in Sources */,
+				7173D5FD1CFA9F1400D76CA2 /* Wheels.m in Sources */,
+				7173D5FA1CFA9C1900D76CA2 /* YEngine.m in Sources */,
+				7173D6001CFAA1C200D76CA2 /* Door.m in Sources */,
+				7173D5F61CFA9A3A00D76CA2 /* Engine.m in Sources */,
+				7173D5DC1CF9EE6800D76CA2 /* AppDelegate.m in Sources */,
+				7173D6031CFAA60C00D76CA2 /* Builder.m in Sources */,
+				7173D5D91CF9EE6800D76CA2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7173D5E01CF9EE6800D76CA2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7173D5E11CF9EE6800D76CA2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7173D5E51CF9EE6800D76CA2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7173D5E61CF9EE6800D76CA2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7173D5E91CF9EE6800D76CA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7173D5EA1CF9EE6800D76CA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7173D5EC1CF9EE6800D76CA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "L1203_制造汽车的流程/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.earth.L1203--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7173D5ED1CF9EE6800D76CA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "L1203_制造汽车的流程/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.earth.L1203--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7173D5CF1CF9EE6800D76CA2 /* Build configuration list for PBXProject "L1203_制造汽车的流程" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7173D5E91CF9EE6800D76CA2 /* Debug */,
+				7173D5EA1CF9EE6800D76CA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7173D5EB1CF9EE6800D76CA2 /* Build configuration list for PBXNativeTarget "L1203_制造汽车的流程" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7173D5EC1CF9EE6800D76CA2 /* Debug */,
+				7173D5ED1CF9EE6800D76CA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7173D5CC1CF9EE6800D76CA2 /* Project object */;
+}

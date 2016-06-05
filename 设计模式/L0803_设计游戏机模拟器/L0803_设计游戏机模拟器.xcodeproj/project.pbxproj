@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		719FB3511CF0A28500000CAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 719FB3501CF0A28500000CAD /* main.m */; };
+		719FB3541CF0A28500000CAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 719FB3531CF0A28500000CAD /* AppDelegate.m */; };
+		719FB3571CF0A28500000CAD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 719FB3561CF0A28500000CAD /* ViewController.m */; };
+		719FB35A1CF0A28500000CAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 719FB3581CF0A28500000CAD /* Main.storyboard */; };
+		719FB35C1CF0A28500000CAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 719FB35B1CF0A28500000CAD /* Assets.xcassets */; };
+		719FB35F1CF0A28500000CAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 719FB35D1CF0A28500000CAD /* LaunchScreen.storyboard */; };
+		719FB36A1CF0A2D800000CAD /* AbstractSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 719FB3691CF0A2D800000CAD /* AbstractSystem.m */; };
+		719FB36D1CF0A32700000CAD /* AbstractImplementor.m in Sources */ = {isa = PBXBuildFile; fileRef = 719FB36C1CF0A32700000CAD /* AbstractImplementor.m */; };
+		719FB3701CF0AC1300000CAD /* GBASystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 719FB36F1CF0AC1300000CAD /* GBASystem.m */; };
+		719FB3731CF0AC5100000CAD /* PSPSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 719FB3721CF0AC5100000CAD /* PSPSystem.m */; };
+		719FB3761CF0AD1500000CAD /* GBAImplementor.m in Sources */ = {isa = PBXBuildFile; fileRef = 719FB3751CF0AD1500000CAD /* GBAImplementor.m */; };
+		719FB3791CF0B2D400000CAD /* PSPImplementor.m in Sources */ = {isa = PBXBuildFile; fileRef = 719FB3781CF0B2D400000CAD /* PSPImplementor.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		719FB34C1CF0A28500000CAD /* L0803_设计游戏机模拟器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "L0803_设计游戏机模拟器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		719FB3501CF0A28500000CAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		719FB3521CF0A28500000CAD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		719FB3531CF0A28500000CAD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		719FB3551CF0A28500000CAD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		719FB3561CF0A28500000CAD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		719FB3591CF0A28500000CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		719FB35B1CF0A28500000CAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		719FB35E1CF0A28500000CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		719FB3601CF0A28500000CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		719FB3681CF0A2D800000CAD /* AbstractSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractSystem.h; sourceTree = "<group>"; };
+		719FB3691CF0A2D800000CAD /* AbstractSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractSystem.m; sourceTree = "<group>"; };
+		719FB36B1CF0A32700000CAD /* AbstractImplementor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractImplementor.h; sourceTree = "<group>"; };
+		719FB36C1CF0A32700000CAD /* AbstractImplementor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractImplementor.m; sourceTree = "<group>"; };
+		719FB36E1CF0AC1300000CAD /* GBASystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBASystem.h; sourceTree = "<group>"; };
+		719FB36F1CF0AC1300000CAD /* GBASystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBASystem.m; sourceTree = "<group>"; };
+		719FB3711CF0AC5100000CAD /* PSPSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPSystem.h; sourceTree = "<group>"; };
+		719FB3721CF0AC5100000CAD /* PSPSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPSystem.m; sourceTree = "<group>"; };
+		719FB3741CF0AD1500000CAD /* GBAImplementor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBAImplementor.h; sourceTree = "<group>"; };
+		719FB3751CF0AD1500000CAD /* GBAImplementor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBAImplementor.m; sourceTree = "<group>"; };
+		719FB3771CF0B2D400000CAD /* PSPImplementor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPImplementor.h; sourceTree = "<group>"; };
+		719FB3781CF0B2D400000CAD /* PSPImplementor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPImplementor.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		719FB3491CF0A28500000CAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		719FB3431CF0A28500000CAD = {
+			isa = PBXGroup;
+			children = (
+				719FB34E1CF0A28500000CAD /* L0803_设计游戏机模拟器 */,
+				719FB34D1CF0A28500000CAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		719FB34D1CF0A28500000CAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				719FB34C1CF0A28500000CAD /* L0803_设计游戏机模拟器.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		719FB34E1CF0A28500000CAD /* L0803_设计游戏机模拟器 */ = {
+			isa = PBXGroup;
+			children = (
+				719FB3671CF0A29C00000CAD /* Implementor */,
+				719FB3661CF0A29300000CAD /* Abstraction */,
+				719FB3521CF0A28500000CAD /* AppDelegate.h */,
+				719FB3531CF0A28500000CAD /* AppDelegate.m */,
+				719FB3551CF0A28500000CAD /* ViewController.h */,
+				719FB3561CF0A28500000CAD /* ViewController.m */,
+				719FB3581CF0A28500000CAD /* Main.storyboard */,
+				719FB35B1CF0A28500000CAD /* Assets.xcassets */,
+				719FB35D1CF0A28500000CAD /* LaunchScreen.storyboard */,
+				719FB3601CF0A28500000CAD /* Info.plist */,
+				719FB34F1CF0A28500000CAD /* Supporting Files */,
+			);
+			path = "L0803_设计游戏机模拟器";
+			sourceTree = "<group>";
+		};
+		719FB34F1CF0A28500000CAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				719FB3501CF0A28500000CAD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		719FB3661CF0A29300000CAD /* Abstraction */ = {
+			isa = PBXGroup;
+			children = (
+				719FB3681CF0A2D800000CAD /* AbstractSystem.h */,
+				719FB3691CF0A2D800000CAD /* AbstractSystem.m */,
+				719FB36B1CF0A32700000CAD /* AbstractImplementor.h */,
+				719FB36C1CF0A32700000CAD /* AbstractImplementor.m */,
+			);
+			name = Abstraction;
+			sourceTree = "<group>";
+		};
+		719FB3671CF0A29C00000CAD /* Implementor */ = {
+			isa = PBXGroup;
+			children = (
+				719FB36E1CF0AC1300000CAD /* GBASystem.h */,
+				719FB36F1CF0AC1300000CAD /* GBASystem.m */,
+				719FB3711CF0AC5100000CAD /* PSPSystem.h */,
+				719FB3721CF0AC5100000CAD /* PSPSystem.m */,
+				719FB3741CF0AD1500000CAD /* GBAImplementor.h */,
+				719FB3751CF0AD1500000CAD /* GBAImplementor.m */,
+				719FB3771CF0B2D400000CAD /* PSPImplementor.h */,
+				719FB3781CF0B2D400000CAD /* PSPImplementor.m */,
+			);
+			name = Implementor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		719FB34B1CF0A28500000CAD /* L0803_设计游戏机模拟器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 719FB3631CF0A28500000CAD /* Build configuration list for PBXNativeTarget "L0803_设计游戏机模拟器" */;
+			buildPhases = (
+				719FB3481CF0A28500000CAD /* Sources */,
+				719FB3491CF0A28500000CAD /* Frameworks */,
+				719FB34A1CF0A28500000CAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "L0803_设计游戏机模拟器";
+			productName = "L0803_设计游戏机模拟器";
+			productReference = 719FB34C1CF0A28500000CAD /* L0803_设计游戏机模拟器.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		719FB3441CF0A28500000CAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = TonyEarth;
+				TargetAttributes = {
+					719FB34B1CF0A28500000CAD = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = E355287BUN;
+					};
+				};
+			};
+			buildConfigurationList = 719FB3471CF0A28500000CAD /* Build configuration list for PBXProject "L0803_设计游戏机模拟器" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 719FB3431CF0A28500000CAD;
+			productRefGroup = 719FB34D1CF0A28500000CAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				719FB34B1CF0A28500000CAD /* L0803_设计游戏机模拟器 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		719FB34A1CF0A28500000CAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				719FB35F1CF0A28500000CAD /* LaunchScreen.storyboard in Resources */,
+				719FB35C1CF0A28500000CAD /* Assets.xcassets in Resources */,
+				719FB35A1CF0A28500000CAD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		719FB3481CF0A28500000CAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				719FB36A1CF0A2D800000CAD /* AbstractSystem.m in Sources */,
+				719FB3761CF0AD1500000CAD /* GBAImplementor.m in Sources */,
+				719FB36D1CF0A32700000CAD /* AbstractImplementor.m in Sources */,
+				719FB3571CF0A28500000CAD /* ViewController.m in Sources */,
+				719FB3701CF0AC1300000CAD /* GBASystem.m in Sources */,
+				719FB3791CF0B2D400000CAD /* PSPImplementor.m in Sources */,
+				719FB3731CF0AC5100000CAD /* PSPSystem.m in Sources */,
+				719FB3541CF0A28500000CAD /* AppDelegate.m in Sources */,
+				719FB3511CF0A28500000CAD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		719FB3581CF0A28500000CAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				719FB3591CF0A28500000CAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		719FB35D1CF0A28500000CAD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				719FB35E1CF0A28500000CAD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		719FB3611CF0A28500000CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		719FB3621CF0A28500000CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		719FB3641CF0A28500000CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "L0803_设计游戏机模拟器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.earth.L0803---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		719FB3651CF0A28500000CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "L0803_设计游戏机模拟器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.earth.L0803---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		719FB3471CF0A28500000CAD /* Build configuration list for PBXProject "L0803_设计游戏机模拟器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				719FB3611CF0A28500000CAD /* Debug */,
+				719FB3621CF0A28500000CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		719FB3631CF0A28500000CAD /* Build configuration list for PBXNativeTarget "L0803_设计游戏机模拟器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				719FB3641CF0A28500000CAD /* Debug */,
+				719FB3651CF0A28500000CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 719FB3441CF0A28500000CAD /* Project object */;
+}

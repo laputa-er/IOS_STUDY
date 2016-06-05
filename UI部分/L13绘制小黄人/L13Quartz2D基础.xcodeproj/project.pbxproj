@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71AD16E71CA2D06900537FAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71AD16E61CA2D06900537FAF /* main.m */; };
+		71AD16EA1CA2D06900537FAF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71AD16E91CA2D06900537FAF /* AppDelegate.m */; };
+		71AD16ED1CA2D06900537FAF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71AD16EC1CA2D06900537FAF /* ViewController.m */; };
+		71AD16F01CA2D06900537FAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71AD16EE1CA2D06900537FAF /* Main.storyboard */; };
+		71AD16F21CA2D06900537FAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71AD16F11CA2D06900537FAF /* Assets.xcassets */; };
+		71AD16F51CA2D06900537FAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71AD16F31CA2D06900537FAF /* LaunchScreen.storyboard */; };
+		71AD16FE1CA2D0C000537FAF /* DrawLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 71AD16FD1CA2D0C000537FAF /* DrawLine.m */; };
+		71AD17011CA4299E00537FAF /* DrawCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 71AD17001CA4299E00537FAF /* DrawCircle.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		71AD16E21CA2D06900537FAF /* L13Quartz2D基础.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "L13Quartz2D基础.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71AD16E61CA2D06900537FAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		71AD16E81CA2D06900537FAF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		71AD16E91CA2D06900537FAF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		71AD16EB1CA2D06900537FAF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		71AD16EC1CA2D06900537FAF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		71AD16EF1CA2D06900537FAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71AD16F11CA2D06900537FAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71AD16F41CA2D06900537FAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71AD16F61CA2D06900537FAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71AD16FC1CA2D0C000537FAF /* DrawLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawLine.h; sourceTree = "<group>"; };
+		71AD16FD1CA2D0C000537FAF /* DrawLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawLine.m; sourceTree = "<group>"; };
+		71AD16FF1CA4299E00537FAF /* DrawCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawCircle.h; sourceTree = "<group>"; };
+		71AD17001CA4299E00537FAF /* DrawCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawCircle.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71AD16DF1CA2D06900537FAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71AD16D91CA2D06900537FAF = {
+			isa = PBXGroup;
+			children = (
+				71AD16E41CA2D06900537FAF /* L13Quartz2D基础 */,
+				71AD16E31CA2D06900537FAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71AD16E31CA2D06900537FAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71AD16E21CA2D06900537FAF /* L13Quartz2D基础.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71AD16E41CA2D06900537FAF /* L13Quartz2D基础 */ = {
+			isa = PBXGroup;
+			children = (
+				71AD16FC1CA2D0C000537FAF /* DrawLine.h */,
+				71AD16FD1CA2D0C000537FAF /* DrawLine.m */,
+				71AD16FF1CA4299E00537FAF /* DrawCircle.h */,
+				71AD17001CA4299E00537FAF /* DrawCircle.m */,
+				71AD16E81CA2D06900537FAF /* AppDelegate.h */,
+				71AD16E91CA2D06900537FAF /* AppDelegate.m */,
+				71AD16EB1CA2D06900537FAF /* ViewController.h */,
+				71AD16EC1CA2D06900537FAF /* ViewController.m */,
+				71AD16EE1CA2D06900537FAF /* Main.storyboard */,
+				71AD16F11CA2D06900537FAF /* Assets.xcassets */,
+				71AD16F31CA2D06900537FAF /* LaunchScreen.storyboard */,
+				71AD16F61CA2D06900537FAF /* Info.plist */,
+				71AD16E51CA2D06900537FAF /* Supporting Files */,
+			);
+			name = "L13Quartz2D基础";
+			path = "L13绘制小黄人";
+			sourceTree = "<group>";
+		};
+		71AD16E51CA2D06900537FAF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				71AD16E61CA2D06900537FAF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71AD16E11CA2D06900537FAF /* L13Quartz2D基础 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71AD16F91CA2D06900537FAF /* Build configuration list for PBXNativeTarget "L13Quartz2D基础" */;
+			buildPhases = (
+				71AD16DE1CA2D06900537FAF /* Sources */,
+				71AD16DF1CA2D06900537FAF /* Frameworks */,
+				71AD16E01CA2D06900537FAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "L13Quartz2D基础";
+			productName = "L13绘制小黄人";
+			productReference = 71AD16E21CA2D06900537FAF /* L13Quartz2D基础.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71AD16DA1CA2D06900537FAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = TonyEarth;
+				TargetAttributes = {
+					71AD16E11CA2D06900537FAF = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = E355287BUN;
+					};
+				};
+			};
+			buildConfigurationList = 71AD16DD1CA2D06900537FAF /* Build configuration list for PBXProject "L13Quartz2D基础" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71AD16D91CA2D06900537FAF;
+			productRefGroup = 71AD16E31CA2D06900537FAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71AD16E11CA2D06900537FAF /* L13Quartz2D基础 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71AD16E01CA2D06900537FAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71AD16F51CA2D06900537FAF /* LaunchScreen.storyboard in Resources */,
+				71AD16F21CA2D06900537FAF /* Assets.xcassets in Resources */,
+				71AD16F01CA2D06900537FAF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71AD16DE1CA2D06900537FAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71AD16ED1CA2D06900537FAF /* ViewController.m in Sources */,
+				71AD16EA1CA2D06900537FAF /* AppDelegate.m in Sources */,
+				71AD17011CA4299E00537FAF /* DrawCircle.m in Sources */,
+				71AD16E71CA2D06900537FAF /* main.m in Sources */,
+				71AD16FE1CA2D0C000537FAF /* DrawLine.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		71AD16EE1CA2D06900537FAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71AD16EF1CA2D06900537FAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		71AD16F31CA2D06900537FAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71AD16F41CA2D06900537FAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71AD16F71CA2D06900537FAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		71AD16F81CA2D06900537FAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71AD16FA1CA2D06900537FAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "L13绘制小黄人/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.earth.L13-----";
+				PRODUCT_NAME = "L13Quartz2D基础";
+			};
+			name = Debug;
+		};
+		71AD16FB1CA2D06900537FAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "L13绘制小黄人/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.earth.L13-----";
+				PRODUCT_NAME = "L13Quartz2D基础";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71AD16DD1CA2D06900537FAF /* Build configuration list for PBXProject "L13Quartz2D基础" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71AD16F71CA2D06900537FAF /* Debug */,
+				71AD16F81CA2D06900537FAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71AD16F91CA2D06900537FAF /* Build configuration list for PBXNativeTarget "L13Quartz2D基础" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71AD16FA1CA2D06900537FAF /* Debug */,
+				71AD16FB1CA2D06900537FAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71AD16DA1CA2D06900537FAF /* Project object */;
+}

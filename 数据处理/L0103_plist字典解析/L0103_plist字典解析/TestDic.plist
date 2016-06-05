@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>members</key>
+	<array>
+		<string>me</string>
+		<string>lili</string>
+		<string>xiaoli</string>
+	</array>
+	<key>event</key>
+	<string>film</string>
+	<key>time</key>
+	<string>2016年4月16日周六下午11:54</string>
+</dict>
+</plist>

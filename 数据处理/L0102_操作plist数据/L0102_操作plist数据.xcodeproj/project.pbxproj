@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		714B75D01CC293E700AE089A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714B75CF1CC293E700AE089A /* AppDelegate.swift */; };
+		714B75D21CC293E700AE089A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714B75D11CC293E700AE089A /* ViewController.swift */; };
+		714B75D51CC293E700AE089A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 714B75D31CC293E700AE089A /* Main.storyboard */; };
+		714B75D71CC293E700AE089A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 714B75D61CC293E700AE089A /* Assets.xcassets */; };
+		714B75DA1CC293E700AE089A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 714B75D81CC293E700AE089A /* LaunchScreen.storyboard */; };
+		714B75E21CC2948900AE089A /* TestArr.plist in Resources */ = {isa = PBXBuildFile; fileRef = 714B75E11CC2948900AE089A /* TestArr.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		714B75CC1CC293E700AE089A /* L0102_操作plist数据.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "L0102_操作plist数据.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		714B75CF1CC293E700AE089A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		714B75D11CC293E700AE089A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		714B75D41CC293E700AE089A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		714B75D61CC293E700AE089A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		714B75D91CC293E700AE089A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		714B75DB1CC293E700AE089A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		714B75E11CC2948900AE089A /* TestArr.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TestArr.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		714B75C91CC293E700AE089A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		714B75C31CC293E700AE089A = {
+			isa = PBXGroup;
+			children = (
+				714B75CE1CC293E700AE089A /* L0102_操作plist数据 */,
+				714B75CD1CC293E700AE089A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		714B75CD1CC293E700AE089A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				714B75CC1CC293E700AE089A /* L0102_操作plist数据.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		714B75CE1CC293E700AE089A /* L0102_操作plist数据 */ = {
+			isa = PBXGroup;
+			children = (
+				714B75CF1CC293E700AE089A /* AppDelegate.swift */,
+				714B75D11CC293E700AE089A /* ViewController.swift */,
+				714B75D31CC293E700AE089A /* Main.storyboard */,
+				714B75D61CC293E700AE089A /* Assets.xcassets */,
+				714B75D81CC293E700AE089A /* LaunchScreen.storyboard */,
+				714B75DB1CC293E700AE089A /* Info.plist */,
+				714B75E11CC2948900AE089A /* TestArr.plist */,
+			);
+			path = "L0102_操作plist数据";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		714B75CB1CC293E700AE089A /* L0102_操作plist数据 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 714B75DE1CC293E700AE089A /* Build configuration list for PBXNativeTarget "L0102_操作plist数据" */;
+			buildPhases = (
+				714B75C81CC293E700AE089A /* Sources */,
+				714B75C91CC293E700AE089A /* Frameworks */,
+				714B75CA1CC293E700AE089A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "L0102_操作plist数据";
+			productName = "L0102_操作plist数据";
+			productReference = 714B75CC1CC293E700AE089A /* L0102_操作plist数据.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		714B75C41CC293E700AE089A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = TonyEarth;
+				TargetAttributes = {
+					714B75CB1CC293E700AE089A = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = E355287BUN;
+					};
+				};
+			};
+			buildConfigurationList = 714B75C71CC293E700AE089A /* Build configuration list for PBXProject "L0102_操作plist数据" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 714B75C31CC293E700AE089A;
+			productRefGroup = 714B75CD1CC293E700AE089A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				714B75CB1CC293E700AE089A /* L0102_操作plist数据 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		714B75CA1CC293E700AE089A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				714B75E21CC2948900AE089A /* TestArr.plist in Resources */,
+				714B75DA1CC293E700AE089A /* LaunchScreen.storyboard in Resources */,
+				714B75D71CC293E700AE089A /* Assets.xcassets in Resources */,
+				714B75D51CC293E700AE089A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		714B75C81CC293E700AE089A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				714B75D21CC293E700AE089A /* ViewController.swift in Sources */,
+				714B75D01CC293E700AE089A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		714B75D31CC293E700AE089A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				714B75D41CC293E700AE089A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		714B75D81CC293E700AE089A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				714B75D91CC293E700AE089A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		714B75DC1CC293E700AE089A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		714B75DD1CC293E700AE089A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		714B75DF1CC293E700AE089A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "L0102_操作plist数据/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.earth.L0102---plist--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		714B75E01CC293E700AE089A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "L0102_操作plist数据/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.earth.L0102---plist--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		714B75C71CC293E700AE089A /* Build configuration list for PBXProject "L0102_操作plist数据" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				714B75DC1CC293E700AE089A /* Debug */,
+				714B75DD1CC293E700AE089A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		714B75DE1CC293E700AE089A /* Build configuration list for PBXNativeTarget "L0102_操作plist数据" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				714B75DF1CC293E700AE089A /* Debug */,
+				714B75E01CC293E700AE089A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 714B75C41CC293E700AE089A /* Project object */;
+}
